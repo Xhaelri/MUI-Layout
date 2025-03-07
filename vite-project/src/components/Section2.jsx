@@ -46,7 +46,6 @@ export default function Section2() {
           justifyContent="center"
           p={4}
         >
-          {/* Row 1 - Mentorship (Image Right) */}
           <Grid2
             item
             xs={12}
@@ -111,8 +110,7 @@ export default function Section2() {
             />
           </Grid2>
 
-          {/* Row 2 - Community Learning (Image Right) */}
-          <Grid2 item xs={12} md={6}           p={4}
+          <Grid2 item xs={12} md={6}    p={4}
           >
             <img
               src={img2}
@@ -177,7 +175,6 @@ export default function Section2() {
             </Button>
           </Grid2>
 
-          {/* Row 3 - Freelance Projects (Image Right, Same Alignment as Second Image) */}
           <Grid2 item xs={12} md={6} sx={{ alignItems: "center" }}
           >
             <img
